@@ -5,7 +5,7 @@ def my_collect(array)
    collect.push(yield array[i])
     i += 1 
   end
- return array
+ collect
 end
 
 
